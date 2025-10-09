@@ -1,0 +1,25 @@
+.carousel .item {
+  height: 300px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+.circular-background {
+  background-color: lightgrey;
+  width: 150px; /* Set a fixed width */
+  height: 150px; /* Set a fixed height equal to the width for a perfect circle */
+  border-radius: 50%; /* Makes the div circular */
+  overflow: hidden; /* Hides any part of the image that extends beyond the circular shape */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.icon-image {
+    width: 95%;
+}
